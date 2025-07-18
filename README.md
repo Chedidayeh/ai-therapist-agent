@@ -1,245 +1,69 @@
-# Aura3.0: AI-Powered Mental Health Support on Sonic 🧠⛓️
 
-[![Sonic Token](https://img.shields.io/badge/Sonic-Integration-purple.svg)]()
-[![Zerepy](https://img.shields.io/badge/Zerepy-AI_Agent-blue.svg)]()
-[![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green.svg)]()
-[![Crisis Response](https://img.shields.io/badge/Crisis-Detection-red.svg)]()
-[![Smart Contract](https://img.shields.io/badge/Sonic_Blaze-Testnet-orange.svg)]()
+# AI Therapist Agent App
 
-> An autonomous AI therapist powered by advanced NLP and emotional intelligence, providing personalized mental health support while ensuring privacy through blockchain technology. Built on Sonic Blaze Testnet with Zerepy agents.
+<img width="1902" height="908" alt="Capture d'écran 2025-07-18 174236" src="https://github.com/user-attachments/assets/3e48057b-324d-4bf7-8fcb-3718d20038a1" />
 
-## 📸 Project Showcase
 
-<div align="center">
-  <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="Aura Dashboard" width="45%" />
-  <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Therapy Session" width="45%" />
-</div>
+## Overview
 
-<div align="center">
-  <img src="https://i.imghippo.com/files/RHud5372Iq.png" alt="Progress Tracking" width="45%" />
-  <img src="https://i.imghippo.com/files/FBU1874HaE.png" alt="Mental Health Analytics" width="45%" />
-</div>
-
-<div align="center">
-  <img src="https://i.imghippo.com/files/Su5718PoM.png" alt="AI Interaction" width="45%" />
-  <img src="https://i.imghippo.com/files/Q1022fI.png" alt="Therapeutic Features" width="45%" />
-</div>
-
-## 🌟 Key Features
-
-### 🤖 Advanced AI Therapy System
-
-- **Zerepy Agent Integration**
-  - Advanced autonomous agent powered by state-of-the-art gpt-4
-  - Multi-agent coordination for comprehensive care
-  - Dynamic personality adaptation based on user needs
-  - Specialized therapeutic approaches and interventions
-  - Real-time crisis detection and emergency protocols
-  - Continuous learning and improvement system
-
-### 🎨 Blockchain-Secured Therapy Sessions
-
-- **Smart Contract Architecture**
-
-  ```solidity
-  struct TherapySession {
-      uint256 sessionId;
-      uint256 timestamp;
-      string summary;
-      string[] topics;
-      uint256 duration;
-      uint8 moodScore;
-      string[] achievements;
-      bool completed;
-  }
-  ```
-
-- **HIPAA-Compliant Data Management**
-
-  - End-to-end encryption for all communications
-  - Zero-knowledge proofs for privacy
-  - Decentralized storage of session records
-  - Granular consent management system
-
-- **NFT-Based Progress Tracking**
-  - ERC-721 therapy session certificates
-  - Achievement-based milestone NFTs
-  - Privacy-preserving metadata structure
-  - Verifiable progress records
-
-### 🌈 Interactive Therapeutic Features
-
-- **Mindfulness Activities**
-
-  - Breathing exercises with visual guidance
-  - Digital Zen garden for stress relief
-  - Virtual forest walks
-  - Ocean wave meditation
-
-- **Smart Environment Integration**
-  - IoT device synchronization
-  - Ambient lighting control
-  - Therapeutic sound management
-  - Environmental adaptation to mood
-
-### 💫 Sonic Token Integration
-
-```typescript
-interface ISonicToken {
-    function mint(address to, uint256 amount) external;
-    function stake(uint256 amount) external;
-    function getRewards() external view returns (uint256);
-}
-```
-
-- **Tokenized Reward System**
-  - Achievement-based token distribution
-  - Engagement staking mechanisms
-  - Community participation rewards
-  - Progress milestone bonuses
-
-## 🛠 Technical Implementation
-
-### AI Agent Architecture
-
-```typescript
-class TherapyAgentConfig {
-  name: string;
-  personality: string;
-  specialties: string[];
-  language_model: string = "gemini-1.5-flash";
-  temperature: float = 0.7;
-  therapy_approach: string;
-  crisis_protocol: Object;
-}
-```
-
-### Security Measures
-
-- **Blockchain Security**
-
-  - Smart contract auditing
-  - Multi-signature therapy session validation
-  - Encrypted on-chain storage
-  - Automated security monitoring
-
-- **Data Protection**
-  - HIPAA-compliant encryption
-  - Secure key management
-  - Regular security audits
-  - Privacy-preserving analytics
-
-### Crisis Detection System
-
-```typescript
-const detectStressSignals = (message: string): StressPrompt | null => {
-  const stressKeywords = [
-    "stress",
-    "anxiety",
-    "worried",
-    "panic",
-    "overwhelmed",
-    "nervous",
-    "tense",
-    "pressure",
-  ];
-  // Advanced pattern matching and intervention logic
-};
-```
-
-## 🚀 Getting Started
-
-1. **Clone & Install**
-
-   ```bash
-   git clone https://github.com/blocklinklabs/aura3.0.git
-   cd aura3.0
-   npm install
-   ```
-
-2. **Configure Environment**
-
-   ```bash
-   cp .env.example .env
-   # Add required API keys:
-   # - SONIC_PRIVATE_KEY
-   # - GEMINI_API_KEY
-   # - ZEREPY_API_KEY
-   ```
-
-3. **Deploy Smart Contracts**
-
-   ```bash
-   npx hardhat run scripts/deploy.ts --network sonic_blaze_testnet
-   ```
-
-4. **Start Development Server**
-   ```bash
-   npm run dev
-   ```
-
-## 📈 Performance Metrics
-
-- Response Time: <100ms
-- Emotion Detection Accuracy: 94.5%
-- Crisis Prediction Precision: 91.3%
-- Transaction Throughput: 2000 TPS
-- NFT Minting Time: ~15s
-
-## 🔒 Security & Compliance
-
-- End-to-end encryption
-- HIPAA compliance
-- GDPR compliance
-- Regular security audits
-- Penetration testing
-- Privacy-preserving architecture
-- Zero-knowledge proof implementation
-- Secure key management
-- Multi-factor authentication
-- Role-based access control
-
-## 🗺 Development Roadmap
-
-### Phase 1: Enhanced User Experience
-
-- Enhanced NFT visualization system
-- Advanced reward mechanisms
-- Mobile app release
-- NFT marketplace integration
-- Multi-language support
-- Advanced crisis intervention
-- Expanded IoT integration
-- Enhanced privacy features
-
-### Phase 2: Platform Expansion
-
-- Group therapy features
-- DAO governance implementation
-- Cross-chain NFT bridging
-- Enhanced achievement system
-- AI model improvements
-- Community features
-- Advanced analytics
-- Expanded integrations
-
-## 🤝 Contributing
-
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE)
-
-## 🌟 Acknowledgments
-
-- Sonic
-- Zerepy AI Framework
-- Mental Health Professionals
-- Open Source Community
+**AI Therapist Agent App** is a modern, interactive web application designed to support users in managing their mental health and well-being. Leveraging the power of AI, the app provides a safe space for users to track their moods, log activities, engage in therapeutic chat sessions, and access calming games and exercises. The platform aims to make mental health support more accessible, engaging, and personalized.
 
 ---
 
-<p align="center">
-Built with ❤️ on Sonic Blaze Testnet and Zerepy for better mental health
-</p>
+## Tech Stack
+
+- **Frontend:**  
+  - Next.js (React framework)
+  - TypeScript
+  - Tailwind CSS (for styling)
+- **Backend:**  
+  - Node.js with Express
+  - TypeScript
+- **Database:**  
+  - MongoDB
+- **Authentication:**  
+  - JWT (JSON Web Tokens) for secure API authentication
+  - NextAuth.js for seamless authentication in Next.js
+- **AI Integration:**  
+  - Google Gemini
+- **Other Libraries:**  
+  - Zustand (for state management)
+  - Custom hooks and context for session and local storage management
+
+---
+
+## Target Audience
+
+- Individuals seeking accessible, AI-powered mental health support
+- Users interested in tracking their mood and activities for self-improvement
+- People looking for guided relaxation, breathing exercises, and calming games
+- Anyone who wants a private, always-available digital companion for mental wellness
+
+---
+
+## Key Features
+
+- **AI Therapy Chat:**  
+  Engage in private, supportive conversations with an AI therapist agent. Sessions are stored for future reference.
+
+- **Mood Tracking:**  
+  Log your daily mood, visualize trends, and gain insights into your emotional well-being.
+
+- **Activity Logging:**  
+  Record activities and reflect on how they impact your mood and mental health.
+
+- **Session History:**  
+  Review past therapy sessions and mood logs to track your progress over time.
+
+- **Calming Games & Exercises:**  
+  Access interactive games and exercises designed to reduce anxiety and promote relaxation (e.g., breathing exercises, zen garden, ocean waves, forest game).
+
+- **Authentication & Security:**  
+  Secure registration, login, and session management using JWT and NextAuth.js to protect user data.
+
+- **Responsive Design:**  
+  Fully responsive UI for seamless experience on desktop and mobile devices.
+
+- **Modern UI/UX:**  
+  Clean, intuitive interface built with Tailwind CSS and modern React patterns.
+
